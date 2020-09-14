@@ -1,10 +1,10 @@
 node {
  stage('Init') {
-     checkout scm
+     //checkout scm
      }
 
  stage('Build') {
-     sh 'dotnet publish -c Release'
+     //sh 'dotnet publish -c Release'
      }
 
  stage('Publish') {
