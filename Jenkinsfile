@@ -4,7 +4,7 @@ node {
      }
 
  stage('Build') {
-     //sh 'dotnet publish -c Release'
+     bat 'dotnet publish -c Release'
      }
 
  stage('Publish') {
